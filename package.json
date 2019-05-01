@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon next",
+    "start": "NODE_ENV=production node server.js",
     "build": "next build",
-    "start": "next start"
+    "heroku-postbuild": "next build"
   },
   "author": "",
   "license": "ISC",
