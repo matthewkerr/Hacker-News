@@ -3,6 +3,7 @@ import Error from 'next/error';
 import Layout from '../components/Layout';
 import CommentList from '../components/CommentsList';
 
+
 class Story extends React.Component {
     
     static async getInitialProps({ req, res, query }) {
